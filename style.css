@@ -1,0 +1,131 @@
+body {
+  margin: 0px;
+  background: #f7f7f7;
+  font-family: arial;
+}
+
+#logo {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: grid;
+  justify-content: center;
+}
+
+.logo1 {
+  width: 200px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu1 {
+  background: #fff;
+  color: #000;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.menu1:hover {
+  background: #000;
+  color: #fff;
+  transition: 1s;
+}
+
+.principal1 {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+  align-self: center;
+  margin-top: 50px;
+}
+
+.titulo1 {
+  display: grid;
+  text-align: right;
+  align-self: end;
+  margin: 0px;
+}
+
+.caixa {
+  display: grid;
+  justify-content: center;
+  grid-column: 1;
+  background: #fff;
+  padding: 20px;
+}
+
+.imgbike {
+  grid-column: 2;
+  height: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+.descricao1 {
+  display: grid;
+  grid-column: 1;
+  text-align: right;
+  font-size: 25px;
+  align-self: right;
+  justify-content: end;
+}
+
+.vermais {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  background: #ee2211;
+  padding: 30px;
+  border-radius: 4px;
+  grid-column: 1;
+  place-self: start;
+  justify-self: end;
+}
+
+.icones {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+}
+
+.vantagem2 {
+  font-size: 64px;
+  color: #c6c6c6;
+  text-align: right;
+  padding: 20px;
+}
+
+.icones2 {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  background: #fff;
+  padding: 30px;
+  gap: 20px;
+}
+.tituloicon {
+  margin: 0px;
+}
+
+.footer {
+  display: grid;
+  justify-content: center;
+  align-self: end;
+  grid-template-columns: 100%;
+  background: #fff;
+  margin-top: 200px;
+  height: 100px;
+}
+
+.footer2 {
+  display: grid;
+  align-self: center;
+  text-align: center;
+  font-size: 30px;
+}
